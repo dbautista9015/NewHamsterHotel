@@ -1,0 +1,66 @@
+.navBgColor {
+    background-color: #000324;
+}
+
+a {
+    color: white !important;
+}
+
+/* Now must add offcanvas to navigation later on */
+
+@media only screen and (max-width: 424px) {
+    .border-content {
+        padding: 5% 5%;
+        font-size: 20px;
+    }
+}
+
+@media only screen and (max-width: 991px) and (min-width: 425px) {
+    #desktopLogo {
+        display: none;
+    }
+    #mobileLogo {
+        visibility: visible;
+    }
+    .border-content {
+        padding: 6% 10%;
+        font-size: 30px;
+    }
+    
+}
+
+@media screen and (min-width: 992px) {
+    #desktopLogo {
+        visibility: visible;
+    }
+    #mobileLogo {
+        display: none;
+    }
+
+    .border-content {
+        padding: 5% 10%;
+        font-size: 45px;
+    }
+
+}
+
+.hero {
+    background-image: url(/images/header.jpg);
+    height: 55vh;
+    background-size: cover;
+    background-position-y: 55%;
+    position: relative;
+}
+
+.border-content {
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    background-color: #000324;
+    white-space: nowrap;
+    opacity: 0.8;
+    background-size: cover;
+}
