@@ -6,6 +6,10 @@
     color: white !important;
 }
 
+.nav-link:hover {
+    outline: 2px solid white;
+}
+
 .offcanvas {
     background-color: #000324;
 }
