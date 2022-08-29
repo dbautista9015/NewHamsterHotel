@@ -7,13 +7,25 @@
 }
 
 .offcanvas {
-    background-color: #2e314e;
+    background-color: #000324;
 }
 
 .offcanvas-header {
     color: white;
+    padding-top: 3rem;
+    padding-left: 1.25rem;
 }
 
+.offcanvasNav > .nav-item {
+    font-size: 1.5rem;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+
+.btn-close {
+    font-size: 1.50rem;
+}
 @media only screen and (max-width: 424px) {
     .border-content {
         padding: 5% 5%;
